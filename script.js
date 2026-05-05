@@ -51,3 +51,23 @@ backToTopBtn.addEventListener('click', () => {
         behavior: 'smooth'
     });
 });
+
+const playAudioBtn = document.getElementById('playAudio');
+const audioElement = document.getElementById('audioElement');
+
+if (playAudioBtn && audioElement) {
+    playAudioBtn.addEventListener('click', () => {
+        if (audioElement.paused) {
+            audioElement.play();
+            playAudioBtn.classList.add('playing');
+        } else {
+            audioElement.pause();
+            audioElement.currentTime = 0;
+            playAudioBtn.classList.remove('playing');
+        }
+    });
+
+    audioElement.addEventListener('ended', () => {
+        playAudioBtn.classList.remove('playing');
+    });
+}
