@@ -270,7 +270,7 @@ header {
 .section-subtitle {
     font-size: 15px;
     color: var(--text-secondary);
-    margin-bottom: 24px;
+    margin-bottom: 60px;
     text-align: center;
     line-height: 1.5;
 }
