@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <title>Duzokho Dozo</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <meta id="themeColor" name="theme-color" content="#121218">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+</head>
+
+<body class="dark-mode">
+    <div class="container">
+        <header>
+            <h1 class="logo">Duzokho Dozo</h1>
+            <div class="theme-switch" id="themeSwitch">
+                <div class="toggle-bg"></div>
+                <div class="toggle-circle">
+                    <svg class="sun-icon" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                    <svg class="moon-icon" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                </div>
+            </div>
+        </header>
+
+        <main>
+            <section class="intro reveal">
+                <h2>Hey there.</h2>
+                <p>"Just living life, figuring things out one step at a time."</p>
+            </section>
+
+            <section class="work reveal">
+                <div class="section-header">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                        stroke="var(--brand-color)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <polyline points="16 18 22 12 16 6"></polyline>
+                        <polyline points="8 6 2 12 8 18"></polyline>
+                    </svg>
+                    <h3>What I do</h3>
+                </div>
+                <p class="section-subtitle">I build apps and websites. They crash all the time.</p>
+            </section>
+
+            <section class="books reveal">
+                <div class="section-header">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                        stroke="var(--brand-color)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path>
+                        <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"></path>
+                    </svg>
+                    <h3>Books</h3>
+                </div>
+                <p class="section-subtitle">A few books that shaped how I think and might just change yours too. </p>
+                <ul class="book-list-left">
+                    <li>The Psychology of Money <span>by Morgan Housel</span></li>
+                    <li>The Design of Everyday Things <span>by Don Norman</span></li>
+                    <li>How to Win Friends and Influence People <span>by Dale Carnegie</span></li>
+                </ul>
+            </section>
+
+            <section class="music reveal">
+                <div class="section-header">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                        stroke="var(--brand-color)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M9 18V5l12-2v13"></path>
+                        <circle cx="6" cy="18" r="3"></circle>
+                        <circle cx="18" cy="16" r="3"></circle>
+                    </svg>
+                    <h3>My Spotify Playlist</h3>
+                </div>
+                <p class="section-subtitle">Join in and listen along.</p>
+                <div class="spotify-simple">
+                    <div class="spotify-wrapper">
+                        <a href="https://open.spotify.com/playlist/58x4fWzegDYInUbvAzrPEu?si=p5zxvDe3SrK4rv0OxshW_Q&pi=VIhxuy9fQ_a3b"
+                            target="_blank" rel="noopener noreferrer" class="spotify-link">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#1DB954" width="64"
+                                height="64">
+                                <path
+                                    d="M12 0C5.4 0 0 5.4 0 12s5.4 12 12 12 12-5.4 12-12S18.66 0 12 0zm5.521 17.34c-.24.359-.66.48-1.021.24-2.82-1.74-6.36-2.101-10.561-1.141-.418.122-.779-.179-.899-.539-.12-.421.18-.78.54-.9 4.56-1.021 8.52-.6 11.64 1.32.42.18.479.659.24 1.02zm1.44-3.3c-.301.42-.841.6-1.262.3-3.239-1.98-8.159-2.58-11.939-1.38-.479.12-1.02-.12-1.14-.6-.12-.48.12-1.021.6-1.141C9.6 9.9 15 10.561 18.72 12.84c.361.181.54.84.24 1.2zm.12-3.36C15.24 8.4 8.82 8.16 5.16 9.301c-.6.179-1.2-.181-1.38-.721-.18-.6.18-1.2.72-1.381 4.26-1.26 11.28-1.02 15.721 1.621.539.3.719 1.02.419 1.56-.299.421-1.02.599-1.559.3z" />
+                            </svg>
+                        </a>
+                        <span class="hint-text">tap me</span>
+                    </div>
+                </div>
+            </section>
+
+            <section class="rocks reveal">
+                <img class="rock-img" src="assets/rock.png" alt="Cartoon Rock">
+                <h2>Oh! I sell <br> <span class="highlight">rocks</span> too.</h2>
+                <p class="rocks-desc">I just pick random rocks from <span class="highlight-small">anywhere</span> <br>
+                    and deliver them to you <br> with hand drawn expressions. haha..</p>
+
+                <div class="price-tag">
+                    Only <span class="price">₹ 9</span>
+                </div>
+
+                <button class="order-btn">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                        stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <rect x="1" y="3" width="15" height="13"></rect>
+                        <polygon points="16 8 20 8 23 11 23 16 16 16 16 8"></polygon>
+                        <circle cx="5.5" cy="18.5" r="2.5"></circle>
+                        <circle cx="18.5" cy="18.5" r="2.5"></circle>
+                    </svg>
+                    Order a Rock
+                </button>
+
+                <ul class="disclaimer">
+                    <li>Yes, real rocks.</li>
+                    <li>Handpicked randomly.</li>
+                    <li>Carefully delivered.</li>
+                    <li>Quality not guaranteed. 🙂</li>
+                </ul>
+            </section>
+        </main>
+
+        <footer>
+            <p>&copy; 2026 Duzokho Dozo. All rights reserved.</p>
+        </footer>
+
+        <button id="backToTop" class="back-to-top" aria-label="Back to top">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <polyline points="18 15 12 9 6 15"></polyline>
+            </svg>
+        </button>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
